@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 //initialised a route for the login page
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Server is working');
 });
 
