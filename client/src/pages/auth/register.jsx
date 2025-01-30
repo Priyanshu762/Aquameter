@@ -94,7 +94,7 @@ const register = () => {
                             </button>
                         </div>
 
-                        <button className="w-full rounded-md px-4 py-2 text-white font-medium bg-[linear-gradient(90deg,rgba(0,51,77,0.8)_0%,rgba(0,85,128,0.8)_53%,rgba(0,119,179,0.8)_100%)] shadow-[0px_4px_61px_0px_rgba(77,71,195,0.4)] hover:brightness-110 transition-all">
+                        <button className="w-full rounded-md px-4 py-2 text-white font-medium bg-[linear-gradient(90deg,rgba(0,51,77,0.8)_0%,rgba(0,85,128,0.8)_53%,rgba(0,119,179,0.8)_100%)] shadow-[px_4px_61px_0px_rgba(77,71,195,0.4)] hover:brightness-110 transition-all">
                             Register
                         </button>
                     </div>
