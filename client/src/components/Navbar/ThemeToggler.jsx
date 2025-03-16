@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from "react-redux";
-import { toggleTheme } from '../../store/themeSlice';
+import { toggleTheme } from '../../Store/themeSlice';
 
 const ThemeToggler = () => {
   const dispatch = useDispatch();

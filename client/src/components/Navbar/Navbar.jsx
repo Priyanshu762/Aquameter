@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { NavbarMenu } from '../../data/global/navbar';
+import { NavbarMenu } from '../../Data/global/navbar';
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
 import {ThemeToggler, HamburgerMenu} from '../index';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {Menu, MenuButton, MenuItem, MenuItems} from '@headlessui/react'
-import { userDropdown } from '../../data/global/userDropdown';
+import { userDropdown } from '../../Data/global/userDropdown';
 
 const Navbar = () => {
     

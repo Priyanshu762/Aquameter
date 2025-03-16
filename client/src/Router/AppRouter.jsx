@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home/Home";
-import NotFound from "../pages/NotFound/NotFound";
-import Layout from "../components/Layout/Layout";
-import ScrollToTop from "../components/common/ScrollToTop";
-import Login from "../pages/Auth/Login";
-import Signup from "../pages/Auth/Signup";
-import Dashboard from '../pages/Dashboard/Dashboard'
-import ProtectedRoute from "../components/common/ProtectedRoute";
-import DashboardLayout from "../components/Layout/DashboardLayout";
+import Home from "../Pages/Home/Home";
+import NotFound from "../Pages/NotFound/NotFound";
+import Layout from "../Components/Layout/Layout";
+import ScrollToTop from "../Components/common/ScrollToTop";
+import Login from "../Pages/Auth/Login";
+import Signup from "../Pages/Auth/Signup";
+import Dashboard from '../Pages/Dashboard/Dashboard'
+import ProtectedRoute from "../Components/common/ProtectedRoute";
+import DashboardLayout from "../Components/Layout/DashboardLayout";
 
 
 const AppRouter = () => {

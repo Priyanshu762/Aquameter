@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { NavbarMenu } from "../../data/global/navbar";
+import { NavbarMenu } from "../../Data/global/navbar";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 

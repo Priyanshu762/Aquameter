@@ -6,7 +6,7 @@ import {InputField} from "../index.js";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import { setLoading } from "../../store/loaderSlice.js";
+import { setLoading } from "../../Store/loaderSlice.js";
 
 const schema = yup.object().shape({
   email: yup.string().email("Invalid email").required("Email is required"),

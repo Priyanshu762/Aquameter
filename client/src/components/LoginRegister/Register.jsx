@@ -6,7 +6,7 @@ import {InputField} from "../index.js";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
-import { setLoading } from "../../store/loaderSlice.js";
+import { setLoading } from "../../Store/loaderSlice.js";
 
 
 const schema = yup.object().shape({
