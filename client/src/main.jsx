@@ -1,14 +1,23 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { BrowserRouter } from "react-router-dom";
+import './index.css';
+import App from './App.jsx';
+import { createRoot } from 'react-dom/client';
+import { ToastContainer } from 'react-toastify';
+import { Provider } from 'react-redux';
+import store from './store/store.js';
+import AppWrapper from './components/common/AppWrapper.jsx';
 
-import App from './App.jsx'
+
+if (localStorage.getItem("darkMode") === "true") {
+  document.documentElement.classList.add("dark");
+}
+
+
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
-  </StrictMode>,
+  <>
+    <Provider store={store}>
+      <ToastContainer position='top-right' autoClose={3000} />
+      <AppWrapper />
+    </Provider>
+  </>,
 )
